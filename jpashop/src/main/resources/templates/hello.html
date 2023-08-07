@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<!--th가 tymeleaf를 뜻함-->
+<!--HelloController에서 attribute로 사용한 data가 여기서 쓰임-->
+<p th:text="'자동으로 바뀌었다 ' + ${data}"> </p>
+</body>
+</html>
